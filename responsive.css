@@ -1,0 +1,37 @@
+@media all and (max-width: 1024px) {
+    .top {
+        background: url("image/top1.jpeg");
+        background-size: cover;
+        height: 80vh;
+    }
+    .top-container{
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+    }
+    .top-box{
+        width: 45%;
+        position: absolute;
+        top: 43%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 380px;
+    }
+    .content{
+        margin: 20px auto;
+    }
+    .numbers-container{
+        opacity: 0;
+        display: none;
+        visibility: hidden;
+    }
+    .first-text-box{
+        flex-wrap: wrap;
+    }
+    .first-text {
+        width: 100%;
+        text-align: end;
+        margin: 10px auto;
+        min-width: 180px;
+    }
+}

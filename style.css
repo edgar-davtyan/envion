@@ -332,7 +332,7 @@ a {
 }
 
 .back-svg {
-    background-image: url("image/logobg.svg");
+    background-image: url("image/Group9.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 30vh;
@@ -670,6 +670,7 @@ a {
     width: 30%;
     position: relative;
     padding: 10px;
+    min-width: 180px;
 }
 .last-title{
     font-family: 'Raleway' ,sans-serif;
@@ -701,6 +702,8 @@ a {
     position: relative;
     padding: 10px;
     height: 21vh;
+    min-width: 180px;
+    margin: 10px 0;
 }
 .last-information-content::after {
     content: "";
